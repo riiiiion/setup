@@ -1,0 +1,3 @@
+1. AutoRaise
+   URL: https://github.com/sbmpost/AutoRaise
+   説明:アプリの自動フォーカスとかアプリ切り替え時のカーソル移動を自動化してくれるアプリ
