@@ -1,5 +1,6 @@
 tap "he3-app/he3"
 tap "homebrew/bundle"
+brew "awscli"
 brew "gh"
 brew "git"
 brew "volta"
