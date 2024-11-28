@@ -1,44 +1,23 @@
 tap "he3-app/he3"
 tap "homebrew/bundle"
-# GitHub command-line tool
 brew "gh"
-# Distributed revision control system
 brew "git"
-# JavaScript toolchain manager for reproducible environments
 brew "volta"
-# Managed client-based VPN service to securely access AWS resources
 cask "aws-vpn-client"
-# OpenAI's official ChatGPT desktop app
 cask "chatgpt"
-# Trains AIs to understand and translate texts
 cask "deepl"
-# Voice and text chat software
 cask "discord"
-# Drivers for DisplayLink docks, adapters and monitors
 cask "displaylink"
-# App to build and share containerised applications and microservices
 cask "docker"
-# Reimagine your terminal
 cask "fig"
-# Collaborative team software
 cask "figma"
-# Web browser
 cask "google-chrome"
-# A Free, Modern Toolbox Built for Developers.
 cask "he3"
-# Customize keymap, shortcuts, and gesture pad behavior on HHKB Studio
 cask "hhkb-studio"
-# JetBrains tools manager
 cask "jetbrains-toolbox"
-# Client-side GUI application for modern database development and operations
 cask "nosql-workbench"
-# Collaboration platform for API development
 cask "postman"
-# Control your tools with a few keystrokes
 cask "raycast"
-# Team communication and collaboration software
 cask "slack"
-# Native GUI tool for relational databases
 cask "tableplus"
-# Open-source code editor
 cask "visual-studio-code"
