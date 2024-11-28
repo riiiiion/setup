@@ -66,4 +66,13 @@ else
   exit 1
 fi
 
+echo "===== aws cliの設定 ====="
+aws configure set region ap-northeast-1
+aws configure set output json
+
+echo "===== キーボード入力速度の設定 ====="
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 15
+
+
 echo "===== セットアップが完了しました！ ====="[]
