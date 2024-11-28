@@ -20,7 +20,14 @@ chmod +x setup.sh
 ### 4. 手動でのセットアップ
 manual_install.txt を参考にして、手動タスクを完了してください
 
-### 5. Brewfireの更新
+
+## 更新手順
+### 1. シェルスクリプトに実行権限を付与
+```bash
+chmod +x brewFileUpdate.sh
+```
+
+### 2. Brewfireの更新
 随時、以下コマンドでBrewfileを更新してください。
 ```bash
 ./brewFileUpdate.sh
