@@ -1,9 +1,12 @@
+tap "hashicorp/tap"
 tap "he3-app/he3"
 tap "homebrew/bundle"
 brew "awscli"
 brew "gh"
 brew "git"
+brew "tfenv"
 brew "volta"
+brew "hashicorp/tap/terraform", link: false
 cask "aws-vpn-client"
 cask "chatgpt"
 cask "deepl"
