@@ -116,6 +116,8 @@ else
   pwd
   exit 1
 fi
+echo "=====libpq postgreSQL のクライアントツール　のパスを通すコマンド ====="
+grep -qxF 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' ~/.zshrc || echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
 
 echo "===== aws cliの設定 ====="
 aws configure set region ap-northeast-1
