@@ -128,4 +128,10 @@ defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 15
 
 
+echo "===== gitingestのinstall ====="
+pipx install gitingest
+pipx ensurepath
+source ~/.zshrc
+
+
 echo "===== セットアップが完了しました！ ====="[]
