@@ -36,3 +36,15 @@ chmod +x brewFileUpdate.sh
 ```bash
 ./brewFileUpdate.sh
 ```
+
+### 補足
+本リポジトリへのpushがうまくいかない時は
+```bash
+ssh-add -l
+```
+でagentに keyが登録されているか確認してください。
+登録されていなければ
+```bash
+ssh-add ~/.ssh/id_ed25519_riiiiion
+```
+で登録してください。
