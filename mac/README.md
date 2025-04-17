@@ -47,4 +47,11 @@ ssh-add -l
 ```bash
 ssh-add ~/.ssh/id_ed25519_riiiiion
 ```
-で登録してください。
+で登録する。
+
+上記だとセッションごとの登録なので
+永続化したい場合は
+```bash
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519_riiiiion
+```
+上記のコマンドでkeychainに登録してください。
