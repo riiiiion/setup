@@ -11,6 +11,7 @@ brew "tfenv"
 brew "volta"
 brew "hashicorp/tap/terraform", link: false
 brew "snyk/tap/snyk"
+cask "alt-tab"
 cask "aws-vpn-client"
 cask "chatgpt"
 cask "deepl"
